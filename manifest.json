@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "LMS REAPER - Stealth PDF Sniper",
+  "version": "1.0",
+  "description": "Silently snipes and auto-downloads PDFs from LMS portals. Study smart, not hard.",
+  "author": "SpaceFoxxy & TimTim",
+  "permissions": [
+    "downloads",
+    "webRequest",
+    "webRequestBlocking",
+    "tabs",
+    "scripting",
+    "storage",
+    "activeTab"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Toggle LMS REAPER"
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
